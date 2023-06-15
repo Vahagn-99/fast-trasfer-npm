@@ -55,6 +55,18 @@ If successful, the script will transfer the files specified in your `sourceFolde
 
 ## Example
 
+Let's say you want to transfer all files in the `src` directory of your project to a project directory on a remote server. Your `fast-transfer.json` file might look like this:
+
+```json
+{
+    "user": "myuser",
+    "ip": "192.168.1.100",
+    "projectPath": "/var/www/myproject",
+    "sourceFolder": "src",
+    "privateKey": "~/.ssh/id_rsa"
+}
+```
+
 After configuring the `fast-transfer.json` file as shown above, you can initiate the file transfer by running the following command:
 
 ```shell
