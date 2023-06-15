@@ -86,6 +86,6 @@ This will execute the transfer-fast.js script and transfer all files in the src 
 
 ## Contributing
 
-Contributions to Transfer-Fast are always welcome! If you have a suggestion, bug report, or wish to contribute to the code, please feel free to open an issue or submit a pull request on our [GitHub page](https://github.com/your-username/transfer-fast).
+I am always welcome! If you have a suggestion, bug report, or wish to contribute to the code, please feel free to open an issue or submit a pull request on my [GitHub page](https://github.com/Vahagn-99/fast-trasfer-npm).
 
-We appreciate your help in improving Transfer-Fast and making it even better!
+I appreciate your help in improving Transfer-Fast and making it even better!
