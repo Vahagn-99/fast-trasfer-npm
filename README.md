@@ -70,9 +70,18 @@ Let's say you want to transfer all files in the `src` directory of your project 
 After configuring the `fast-transfer.json` file as shown above, you can initiate the file transfer by running the following command:
 
 ```shell
-node transfer-fast.js
+node transfer-fast.js 
 ```
-
+also you can add script to your pagcke.json file to execute it with any npm command you want like this 
+pagacke.json 
+```sh
+{
+"scripts":{
+    "transfer-start":"node transfer-fast.js" 
+    or
+    "build":"vite build && node transfer-fast.js" when we want to add files reactivly to the remote server...
+}
+```
 This will execute the transfer-fast.js script and transfer all files in the src directory to the /var/www/myproject directory on the server at 192.168.1.100.
 
 ## Contributing
