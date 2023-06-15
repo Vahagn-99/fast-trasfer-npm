@@ -1,0 +1,7 @@
+{
+    "user": "username",
+    "ip": "127.0.0.1",
+    "projectPath": "/path/to/project",
+    "sourceFolder": "src",
+    "privateKey": "~/path/to/private-key.pe"
+}

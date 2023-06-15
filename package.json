@@ -1,0 +1,15 @@
+{
+    "name": "transfer-fast",
+    "version": "2.1.9",
+    "description": "This package creates a transfer-fast.json and transfer-fast.js when run with `npm init transfer-fast`",
+    "main": "transfer-fast.js",
+    "bin": {
+        "transfer-fast": "./init.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.2.0"
+    },
+    "keywords": []
+}
